@@ -1,13 +1,9 @@
 # Amazon_application
 
-
-Amazon Console Application
-
-Description:
+*Description:*
 This project is a Java console-based application modeling a simplified version of an Amazon-like e-commerce platform. It allows customers to browse products, add them to their cart, checkout, and write reviews. Retailers can manage their products, view orders, and read reviews. An admin login is available for administrative actions.
 
-Features:
-Customer Features:
+# Features:
 
 View list of products
 Add product to cart
@@ -15,8 +11,8 @@ View cart
 Checkout cart
 Add funds to Amazon Wallet
 Write a review for a seller
-Retailer Features:
 
+Retailer Features:    
 View products and stock
 View orders
 Add product to stock
