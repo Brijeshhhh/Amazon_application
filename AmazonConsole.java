@@ -129,6 +129,7 @@ class Retailer {
                 System.out.println(review);
             }
         }
+    }
 }
 
 class AdminAmazon {
@@ -144,7 +145,7 @@ class AdminAmazon {
     public void addRetailer(Retailer retailer) {
         retailers.add(retailer);
     }
-
+    
     public boolean isAdmin(String id, String pass) {
         return this.id.equals(id) && this.pass.equals(pass);
     }
@@ -155,12 +156,11 @@ class AmazonConsole {
         Scanner scanner = new Scanner(System.in);
         AdminAmazon admin = new AdminAmazon();
 
-        // Add some sample products
         Product laptop = new Product("Laptop", 800, 10);
         Product smartphone = new Product("Smartphone", 500, 20);
         Product headphones = new Product("Headphones", 100, 30);
 
-        // Create sample retailer and add products to their stock
+     
         Retailer retailer = new Retailer("retailer1", "password1");
         retailer.addProduct(laptop);
         retailer.addProduct(smartphone);
@@ -182,11 +182,11 @@ class AmazonConsole {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
-                    // Customer login
+                    
                     System.out.println("Enter customer ID:");
                     String custId = scanner.nextLine();
                     System.out.println("Enter password:");
@@ -199,7 +199,7 @@ class AmazonConsole {
                     }
                     break;
                 case 2:
-                    // Retailer login
+                    
                     System.out.println("Enter retailer ID:");
                     String retailerId = scanner.nextLine();
                     System.out.println("Enter password:");
@@ -212,7 +212,7 @@ class AmazonConsole {
                     }
                     break;
                 case 3:
-                    // Admin login
+                    
                     System.out.println("Enter admin ID:");
                     String adminId = scanner.nextLine();
                     System.out.println("Enter password:");
@@ -369,5 +369,4 @@ class AmazonConsole {
             }
         }
     }
-}
 }
