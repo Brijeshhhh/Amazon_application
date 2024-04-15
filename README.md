@@ -1,55 +1,51 @@
-# Amazon_application
 
-*Description:*
+# Amazon Console Application
+
+## Description:
 This project is a Java console-based application modeling a simplified version of an Amazon-like e-commerce platform. It allows customers to browse products, add them to their cart, checkout, and write reviews. Retailers can manage their products, view orders, and read reviews. An admin login is available for administrative actions.
 
-# Features:
+## Features:
+1. **Customer Features:**
+   - View list of products
+   - Add product to cart
+   - View cart
+   - Checkout cart
+   - Add funds to Amazon Wallet
+   - Write a review for a seller
 
-View list of products
-Add product to cart
-View cart
-Checkout cart
-Add funds to Amazon Wallet
-Write a review for a seller
+2. **Retailer Features:**
+   - View products and stock
+   - View orders
+   - Add product to stock
+   - Read reviews
 
-Retailer Features:    
-View products and stock
-View orders
-Add product to stock
-Read reviews
-Admin Features:
+3. **Admin Features:**
+   - Admin login to perform administrative actions
 
-Admin login to perform administrative actions
-Usage:
-Customer:
+## How to Run:
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/amazon-console.git
+   ```
 
-Run the program and choose the option to login as a customer.
-Enter customer ID and password.
-Browse products, add to cart, checkout, manage Amazon Wallet, and write reviews.
-Retailer:
+2. Navigate to the project directory:
+   ```bash
+   cd amazon-console
+   ```
 
-Run the program and choose the option to login as a retailer.
-Enter retailer ID and password.
-View products and stock, manage orders, add products to stock, and read reviews.
-Admin:
+3. Compile the Java files:
+   ```bash
+   javac AmazonConsole.java
+   ```
 
-Run the program and choose the option to login as an admin.
-Enter admin ID and password.
-Perform administrative actions as required.
-How to Run:
-Clone the repository to your local machine.
-Open the project in your preferred Java IDE.
-Compile and run the AmazonConsole.java file.
-Contributors:
-Brijesh 
+4. Run the compiled program:
+   ```bash
+   java AmazonConsole
+   ```
 
-Technologies Used:
-Java
-Object-Oriented Programming
-Console-Based User Interface
-License:
-This project is licensed under the MIT License - see the LICENSE file for details.
+5. Follow the on-screen instructions to interact with the console application.
 
-Acknowledgments:
-Inspired by Amazon's e-commerce platform.
-Built for educational purposes.
+## Note:
+- Make sure you have Java installed on your machine.
+- If you encounter any issues during compilation or execution, ensure that your Java environment is properly configured.
+
